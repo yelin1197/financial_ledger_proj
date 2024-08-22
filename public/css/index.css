@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+button {
+    background-color: white;
+    border: 2px dashed #9E9E9E;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 45%;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.income-section, .expense-section, .calculation-section {
+    background-color: #eaf6ff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.section-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.section-content {
+    font-size: 16px;
+}
+
+.calculation-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.calculation-content {
+    font-size: 16px;
+}
+
+.advice-button {
+    background-color: #0b4a81;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 7px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.advice-button:hover {
+    background-color: #0b4a81;
+}
