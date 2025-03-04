@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 가계부</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <h1>00님<br>지출을 기록해보세요</h1>
+
+    <div class="income-section">
+        <div class="section-title">수입</div>
+        <input type="number" id="income_input" placeholder="수입 입력 (숫자만)"/>
+    </div>
+
+    <div class="expense-section">
+        <div class="section-title">지출</div>
+        <div class="section-content">
+            (저축, 식비, 교통비, 문화생활, 미용, 교육, 기타)
+        </div>
+        <input type="number" id="expense_input" placeholder="지출 입력 (숫자만)"/>
+    </div>
+
+    <div class="calculation-section">
+        <div class="calculation-title">과소비 지수 계산</div>
+        <div class="calculation-content">
+            (월평균수입-월평균저축)/월평균 수입
+        </div>
+    </div>
+    
+    <button class="advice-button" onclick="location.href='advice.html'">조언 구하기</button>
+</body>
+</html>

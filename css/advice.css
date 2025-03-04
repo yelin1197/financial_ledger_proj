@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.goal-section, .ai-advice-section {
+    background-color: #eaf6ff; 
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 50%;
+    
+}
+
+.goal-title, .advice-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.goal-content, .advice-content {
+    font-size: 15px;
+    line-height: 1.5;
+}
